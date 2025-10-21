@@ -1,0 +1,2 @@
+incluir pastas com base na estrutura.txt
+Incluir os arquivos nessas pastas

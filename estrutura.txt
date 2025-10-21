@@ -1,0 +1,15 @@
+blog-app/
+│
+├── views/                # arquivos .ejs (HTML dinâmico)
+│   ├── partials/
+│   │   ├── header.ejs
+│   │   ├── footer.ejs
+│   ├── home.ejs
+│   ├── new.ejs
+│   ├── edit.ejs
+│
+├── public/               # arquivos estáticos (CSS, imagens, etc.)
+│   └── styles.css
+│
+├── app.js                # servidor principal (Node + Express)
+└── package.json

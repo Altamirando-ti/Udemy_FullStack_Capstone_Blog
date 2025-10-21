@@ -1,0 +1,45 @@
+# Dependências do Node
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos temporários
+tmp/
+temp/
+*.tmp
+
+# Configurações do sistema
+.DS_Store
+Thumbs.db
+
+# Ambiente
+.env
+.env.local
+.env.*.local
+
+# Cache
+.cache/
+.vscode/
+.idea/
+
+# Arquivos de build (caso use futuramente)
+dist/
+build/
+
+# Backup e histórico
+*.bak
+*.swp
+*.swo
+
+# Arquivos gerados automaticamente
+*.pid
+*.seed
+*.pid.lock
+
+# Arquivos de teste (caso venha a criar)
+coverage/

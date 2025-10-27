@@ -1,0 +1,21 @@
+<%- include("partials/header") %>
+
+<h1>Meu Blog</h1>
+<a href="/new">+ Novo Post</a>
+
+<% if (posts.length === 0) { %>
+  <p>Nenhum post ainda. Crie o primeiro!</p>
+<% } else { %>
+  <% posts.forEach(post => { %>
+    <div class="post">
+      <h2><%= post.title %></h2>
+      <p><%= post.content %></p>
+      <form action="/delete/<%= post.id %>" method="POST" style="display:inline;">
+        <button type="submit">Excluir</button>
+      </form>
+      <a href="/edit/<%= post.id %>">Editar</a>
+    </div>
+  <% }) %>
+<% } %>
+
+<%- include("partials/footer") %>
